@@ -16,7 +16,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
   deps: [],
   description: 'Deploy turborepo-remote-cache serverless on aws',
 
-  devDeps: ['esbuild', '@atws/projen-config', 'turborepo-remote-cache'],
+  devDeps: [
+    'esbuild',
+    '@atws/projen-config',
+    'turborepo-remote-cache',
+    'aws-sdk',
+  ],
   eslint: false,
 
   jsiiVersion: '~5.0.0',

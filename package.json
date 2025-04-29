@@ -42,6 +42,7 @@
     "@types/jest": "^29.5.4",
     "@types/node": "^16",
     "aws-cdk-lib": "2.51.0",
+    "aws-sdk": "^2.1692.0",
     "constructs": "10.0.5",
     "esbuild": "^0.19.3",
     "eslint": "^8",
@@ -58,7 +59,7 @@
     "standard-version": "^9",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
-    "turborepo-remote-cache": "^1.15.0",
+    "turborepo-remote-cache": "^2.5.0",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {

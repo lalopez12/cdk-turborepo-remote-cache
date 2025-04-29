@@ -258,13 +258,13 @@
           "exec": "yarn upgrade npm-check-updates"
         },
         {
-          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@atws/projen-config,@types/jest,@types/node,esbuild,jest,jest-junit,jsii-diff,jsii-docgen,jsii-pacmak,npm-check-updates,projen,standard-version,ts-jest,ts-node,turborepo-remote-cache,typescript,@atws/eslint-config,@atws/prettier-config,eslint,prettier,aws-cdk-lib,constructs"
+          "exec": "npm-check-updates --upgrade --target=minor --peer --dep=dev,peer,prod,optional --filter=@atws/projen-config,@types/jest,@types/node,aws-sdk,esbuild,jest,jest-junit,jsii-diff,jsii-docgen,jsii-pacmak,npm-check-updates,projen,standard-version,ts-jest,ts-node,turborepo-remote-cache,typescript,@atws/eslint-config,@atws/prettier-config,eslint,prettier,aws-cdk-lib,constructs"
         },
         {
           "exec": "yarn install"
         },
         {
-          "exec": "yarn upgrade @atws/projen-config @types/jest @types/node esbuild jest jest-junit jsii-diff jsii-docgen jsii-pacmak npm-check-updates projen standard-version ts-jest ts-node turborepo-remote-cache typescript @atws/eslint-config @atws/prettier-config eslint prettier aws-cdk-lib constructs"
+          "exec": "yarn upgrade @atws/projen-config @types/jest @types/node aws-sdk esbuild jest jest-junit jsii-diff jsii-docgen jsii-pacmak npm-check-updates projen standard-version ts-jest ts-node turborepo-remote-cache typescript @atws/eslint-config @atws/prettier-config eslint prettier aws-cdk-lib constructs"
         },
         {
           "exec": "npx projen"
